@@ -3,10 +3,18 @@
 }
 
 .cl-link {
-  color: white;
+  color: #9E9E9E;
   font-size: 20;
 }
 
 .cl-link:hover {
   color: black;
+}
+
+.jumbotron-black {
+    background-color: #212121;
+}
+
+.jumbotron-grey {
+  color: #9E9E9E;
 }
