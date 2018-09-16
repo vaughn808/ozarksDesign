@@ -1,0 +1,12 @@
+.bg-school-purple {
+    background-color: rgba(111, 27, 141, 0.85);
+}
+
+.cl-link {
+  color: white;
+  font-size: 20;
+}
+
+.cl-link:hover {
+  color: black;
+}
