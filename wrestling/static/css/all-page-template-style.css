@@ -13,8 +13,21 @@
 
 .jumbotron-black {
     background-color: #212121;
+    height: 100;
+    padding-top: 0;
 }
 
 .jumbotron-grey {
   color: #9E9E9E;
+}
+
+.jumbotron-general-pic {
+  height: 200;
+  width: "100%";
+}
+
+.jumbotron-text-right {
+  position: absolute;
+  top: 100;
+  right: 25;
 }

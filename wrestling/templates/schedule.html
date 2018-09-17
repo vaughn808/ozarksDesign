@@ -1,12 +1,14 @@
 {% extends 'allPageTemplate.html' %}
+{% load staticfiles %}
 {% block title %}
   Schedule - {{ block.super }}
 {% endblock title %}
 
 {% block content %}
 <div class="jumbotron jumbotron-fluid jumbotron-black">
+  <img class="jumbotron-general-pic" src="{% static 'images/general-page-logo.jpg' %}" alt="general page logo" />
   <div class="container text-light">
-    <h1 class="display-4">Wrestling Schedule</h1>
+    <h1 class="display-4 jumbotron-grey jumbotron-text-right">Wrestling Schedule</h1>
   </div>
 </div>
 <table class="table-sm table-striped table-striped">
